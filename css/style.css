@@ -73,6 +73,9 @@ section{background-color: rgb(0, 0, 0);
     text-align: center;
     color: rgb(98, 6, 160);
 }
+h2{
+    color: white;
+}
 
 /*shows**/
 .showsTitle{
