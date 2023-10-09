@@ -1,166 +1,114 @@
-*{ 
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
 
-}
+body {
+  background: black; }
 
-.navbar{
-    background-color: rgb(121, 117, 117);
-   
-}
-.navUl{
+.trapstarR {
+  text-align: center;
+  background-color: black; }
+  .trapstarR div nav {
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    background-color: black; }
+
+footer {
+  text-align: center;
+  font-family: 'Creepster', cursive;
+  margin-top: 2px;
+  background-color: black; }
+  footer .mainFooter {
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    margin-top: 10px;
+    color: red; }
+
+main .streamTitle {
+  color: blueviolet;
+  text-align: center;
+  background-color: black; }
+
+.presetancionS {
+  color: white; }
+
+.xanProfile {
+  text-align: center; }
+
+.contenedorST, .contenedorM, .contenedorV {
+  display: flex; }
+
+.xanP {
+  width: 200px;
+  border-radius: 50%; }
+
+.twitch {
+  text-align: center; }
+
+.trapsImg {
+  width: 200px;
+  text-align: center; }
+
+main {
+  background-color: black; }
+  main .raeProfile {
+    text-align: center; }
+
+.descripcion {
+  color: white;
+  font-family: 'Creepster', cursive;
+  text-align: center; }
+
+.YOUTUBE {
+  text-align: center; }
+
+.trapst .navbar {
+  text-align: center;
+  background-color: #797575;
+  font-family: 'Creepster', cursive; }
+  .trapst .navbar .navUl {
     display: flex;
     justify-content: space-between;
-    
-}
-.titulo {
-    padding: 1rem;
-}
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif; }
+    .trapst .navbar .navUl li {
+      text-decoration: none;
+      color: black; }
 
-/* index**/
+main .showsTitle, main .videoTitle {
+  text-align: center;
+  color: blueviolet; }
 
-.trapstarR{
-    text-align: center;
-    text-align: center;
-    background-color: black;
-}
-
-nav{ 
-    text-align: center; 
-    font-family: 'Creepster', cursive;
-    background-color: black;}
-footer{
-    text-align: center;
-    font-family: 'Creepster', cursive;
-    margin-top: 2px;
-    background-color: black;
-    
-}
-
-h1{background-color: black;
-    color: rgb(109, 15, 15);
-    font-family: 'Creepster', cursive;
-}
-
-
-/*music**/
-
-
-.contenedorM{
-     display: flex;
-    }
-section{background-color: rgb(0, 0, 0);
-    
-}
-.descripcion{ 
+.contenedorS {
+  display: flex;
+  text-align: center; }
+  .contenedorS img {
+    width: 400px;
+    border-radius: 30%; }
+  .contenedorS h2 {
     color: white;
-    font-family: 'Creepster', cursive;
-    text-align: center;
-}
+    font-style: normal;
+    font-size: 25px;
+    text-align: center; }
 
-.raeProfile {
-    text-align: center;
-    background-color: black;
-}
-.raeP{
-    width: 200px; ;
-    border-radius: 50%;
-   
-    box-shadow: 2px 2px 10px rgb(black);
-}
-.videos{
-    text-align: center;
-    color: rgb(98, 6, 160);
-}
-h2{
-    color: white;
-}
+.contenedorV img {
+  width: 400px;
+  border-radius: 30%; }
 
-/*shows**/
-.showsTitle{
-    text-align: center;
-}
-.contenedorS{
-    display: flex;
-   }
-section{background-color: rgb(0, 0, 0);
-}
-.trapsImg{
-    width: 200px;
-}
-   
+/* esto de de music*/
+.videos {
+  color: blueviolet;
+  text-align: center; }
 
-/* streaming**/
-.streamTitle{
-    color: blueviolet;
-    text-align: center;
-    background-color: black;
-}
-.xanProfile{
-    text-align: center;
-    background-color: black;
-}
-.presetancionS{
-    color: white;
-    background-color: black;
-    text-align: center;
-    
-}
-.contenedorST{
-    display: flex;
-   }
-section{background-color: rgb(0, 0, 0);
-}
-.twitch{ 
-    text-align: center;
-    background-color: black;
+h2 {
+  color: white;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center; }
 
-}
-
-.xanP{
-    width: 200px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 15px rgb(black);
-} 
-
-/*videos**/ 
-.contenedorV{
-    display: flex;
-   }
-section{background-color: rgb(0, 0, 0);
-}
-   
-.videoTitle {
-    text-align: center;
-}
- 
-@media(max-width: 1024px){
-    
-}
-
-@media(max-width: 768px){ 
-    header{
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-}
-@media(max-width: 412px){
-    .raeP{
-        width: 200px;
-        height: 215px;
-    }
-    header{
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    .xanP{
-        width: 200px;
-        height: 100px;
-    }
-    
-
-}
+@media (max-width: 768px) {
+  header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; } }

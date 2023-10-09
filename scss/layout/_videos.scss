@@ -1,0 +1,31 @@
+main{
+    .videoTitle{
+        @extend .showsTitle
+
+        }
+   
+
+    }
+ 
+ .contenedorV {
+ 
+    img{
+        width: 400px;
+        border-radius:30%;
+    }
+    @extend .contenedorM
+}
+
+
+
+
+
+
+/* esto de de music*/
+.videos{ 
+    color: blueviolet;
+    text-align: center;
+}
+h2{
+    @include texto
+}

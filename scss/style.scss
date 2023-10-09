@@ -1,0 +1,16 @@
+      @import "./utilities/variables";
+      @import "./utilities/mixins";
+
+      @import "./base/reset";
+     
+     @import "./layout/body";
+     @import "./layout/main-index";
+     @import "./layout/footer";
+     @import "./layout/streaming";
+     @import "./layout/music";
+     @import "./layout/navbar";
+     @import "./layout/show";
+     @import "./layout/videos";
+
+     @import "./layout/medias/media768";
+       

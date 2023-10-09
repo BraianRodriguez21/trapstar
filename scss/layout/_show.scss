@@ -1,0 +1,23 @@
+main{
+    .showsTitle{
+        text-align: center;
+        color: blueviolet;
+
+    }
+}
+
+.contenedorS{ 
+    display: flex;
+    text-align: center;
+
+    img{
+        width: 400px;
+        border-radius:30%;
+        }
+    h2{
+        @include texto
+    } 
+}
+
+                  
+   
