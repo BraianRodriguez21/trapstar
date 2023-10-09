@@ -1,114 +1,168 @@
 * {
   margin: 0%;
   padding: 0%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
-  background: black; }
+  background: black;
+}
 
 .trapstarR {
   text-align: center;
-  background-color: black; }
-  .trapstarR div nav {
-    text-align: center;
-    font-family: 'Creepster', cursive;
-    background-color: black; }
+  background-color: black;
+}
+.trapstarR div nav {
+  text-align: center;
+  font-family: "Creepster", cursive;
+  background-color: black;
+}
 
 footer {
   text-align: center;
-  font-family: 'Creepster', cursive;
+  font-family: "Creepster", cursive;
   margin-top: 2px;
-  background-color: black; }
-  footer .mainFooter {
-    text-align: center;
-    font-family: 'Creepster', cursive;
-    margin-top: 10px;
-    color: red; }
+  background-color: black;
+}
+footer .mainFooter {
+  text-align: center;
+  font-family: "Creepster", cursive;
+  margin-top: 10px;
+  color: red;
+}
 
 main .streamTitle {
   color: blueviolet;
   text-align: center;
-  background-color: black; }
+  background-color: black;
+}
 
 .presetancionS {
-  color: white; }
+  color: white;
+}
 
 .xanProfile {
-  text-align: center; }
+  text-align: center;
+}
 
 .contenedorST, .contenedorM, .contenedorV {
-  display: flex; }
+  display: flex;
+}
 
 .xanP {
   width: 200px;
-  border-radius: 50%; }
+  border-radius: 50%;
+}
 
 .twitch {
-  text-align: center; }
+  text-align: center;
+}
 
 .trapsImg {
   width: 200px;
-  text-align: center; }
+  text-align: center;
+}
 
 main {
-  background-color: black; }
-  main .raeProfile {
-    text-align: center; }
+  background-color: black;
+}
+main .raeProfile {
+  text-align: center;
+}
 
 .descripcion {
   color: white;
-  font-family: 'Creepster', cursive;
-  text-align: center; }
+  font-family: "Creepster", cursive;
+  text-align: center;
+}
 
 .YOUTUBE {
-  text-align: center; }
+  text-align: center;
+}
 
 .trapst .navbar {
   text-align: center;
-  background-color: #797575;
-  font-family: 'Creepster', cursive; }
-  .trapst .navbar .navUl {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif; }
-    .trapst .navbar .navUl li {
-      text-decoration: none;
-      color: black; }
+  background-color: rgb(121, 117, 117);
+  font-family: "Creepster", cursive;
+}
+.trapst .navbar .navUl {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.trapst .navbar .navUl li {
+  text-decoration: none;
+  color: black;
+}
 
 main .showsTitle, main .videoTitle {
   text-align: center;
-  color: blueviolet; }
+  color: blueviolet;
+}
 
 .contenedorS {
   display: flex;
-  text-align: center; }
-  .contenedorS img {
-    width: 400px;
-    border-radius: 30%; }
-  .contenedorS h2 {
-    color: white;
-    font-style: normal;
-    font-size: 25px;
-    text-align: center; }
+  text-align: center;
+}
+.contenedorS img {
+  width: 400px;
+  border-radius: 30%;
+}
+.contenedorS h2 {
+  color: white;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+}
 
 .contenedorV img {
   width: 400px;
-  border-radius: 30%; }
+  border-radius: 30%;
+}
 
 /* esto de de music*/
 .videos {
   color: blueviolet;
-  text-align: center; }
+  text-align: center;
+}
 
 h2 {
   color: white;
   font-style: normal;
   font-size: 25px;
-  text-align: center; }
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   header {
     flex-direction: row;
     align-items: center;
-    justify-content: center; } }
+    justify-content: center;
+  }
+  header .Titulo {
+    text-align: center;
+    width: 500px;
+  }
+}
+@media (max-width: 412px) {
+  header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  header .Titulo {
+    text-align: center;
+    width: 300px;
+  }
+  .xanP {
+    width: 200px;
+    height: 100px;
+  }
+}
+.raeP {
+  width: 200px;
+  height: 215px;
+}
+
+/*# sourceMappingURL=style.css.map */

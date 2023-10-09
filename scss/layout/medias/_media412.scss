@@ -5,12 +5,18 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        .Titulo{
+            text-align: center;
+            width: 300px;
+        }
     }
     .xanP{
-        width: 100px;
-        height: 50px
+        width: 200px;
+        height: 100px
     }
 } .raeP{
         width: 200px;
         height: 215px;
+
     }
+
