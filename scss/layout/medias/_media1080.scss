@@ -1,0 +1,18 @@
+@media(max-width: 1080px){
+header{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    .contenedorS{
+        display: grid;
+        grid-template-columns: (1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        .imgBar{
+            border-radius: 40%;
+            width: 50px;
+        }
+    }
+}

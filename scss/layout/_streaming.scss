@@ -14,11 +14,28 @@ main{
     .xanProfile{text-align: center;} 
    
       .contenedorST{
-        display: flex; }  
+        background: linear-gradient(black, rgb(36, 22, 48));
+        display: flex;
+        border-radius: 10%; }  
+        
         .xanP{
        width: 200px;
        border-radius: 50%;
            }
+    .contenedorSTc{
+        background: linear-gradient(black, rgb(36, 22, 48));
+        display: flex; }  
+        .conzoFoto{
+         width: 200px;
+        border-radius: 50%;
+               }
+    .conzoProfile{
+        text-align: center;
+    .twitchConzo{
+    text-align: center;
+}
+    }
+        
      
 .twitch{
     text-align: center;

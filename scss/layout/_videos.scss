@@ -13,9 +13,23 @@ main{
         width: 400px;
         border-radius:30%;
     }
-    @extend .contenedorM
+    @extend .contenedorS
 }
 
+
+    .textovideo{
+        text-align: center;
+        .Editoresdevideo{
+            border-radius: 2%;
+            width:800px;
+           
+        }
+
+    }
+    .textoRelleno{
+   @include textoR
+    }
+    
 
 
 
@@ -23,8 +37,9 @@ main{
 
 /* esto de de music*/
 .videos{ 
-    color: blueviolet;
     text-align: center;
+    color: blueviolet;
+    
 }
 h2{
     @include texto

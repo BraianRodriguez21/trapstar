@@ -9,15 +9,52 @@ main{
 .contenedorS{ 
     display: flex;
     text-align: center;
+    
 
     img{
         width: 400px;
         border-radius:30%;
-        }
+        }  
+
     h2{
         @include texto
     } 
-}
+  
+    }
+    .textoRelleno{
+        .barImg{
+            width: 800px;
+            text-align: center;
+ 
+    }
+           
 
+    }
+    .barImg{
+        
+        width: 800px;
+        text-align: center;
+
+}
+   .Circus{
+    text-align: center;
+    .CircusMaps{
+        width: 400px;
+    }
+   }
+
+.TextShowCircus{
+    .CircusTitulo{
+        text-align: center;
+        color:$titulo;
+        .CircusImg{
+            text-align: center;
+             width: 300px;  
+                }
+                }
+}
+.CircusMaps{
+    text-align: center;
+}
                   
    
