@@ -1,28 +1,31 @@
-// @media(max-width: 768px){ 
-//     header{
-//         flex-direction: row;
-//         align-items: center;
-//         justify-content: center;
-    
-//     .Titulo{
-//         text-align: center;
-//         width: 500px;
+@media(max-width: 768px)    
+    { 
 
-//         }
-    
-// }
-// .xanP{
-//     text-align: center;
-// }
-// .BAR{
-
-//     .barImg{
-//         width: 600px;
-//     }
-// }
-//     .Circus{
-//     .CircusImg{
-//         width: 700px;
-//     }
-// }
-// }
+      header{
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+      
+      .Titulo{
+          text-align: center;
+          width: 400px;
+  
+        }
+      
+  }
+  
+  
+  .xanP{
+      text-align: center;
+  }
+  .BAR{
+    .barImg{
+          width: 600px;
+      }
+  }
+      .Circus{
+      .CircusImg{
+          width: 700px;
+      }
+  }
+}

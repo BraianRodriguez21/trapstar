@@ -216,6 +216,26 @@ h2 {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  header .Titulo {
+    text-align: center;
+    width: 400px;
+  }
+  .xanP {
+    text-align: center;
+  }
+  .BAR .barImg {
+    width: 600px;
+  }
+  .Circus .CircusImg {
+    width: 700px;
+  }
+}
 @media (max-width: 1200px) {
   header {
     flex-direction: row;
@@ -279,27 +299,8 @@ h2 {
     width: 300px;
   }
   .Circus .CircusImg {
+    height: auto;
     width: 400px;
-  }
-}
-@media (max-width: 768px) {
-  header {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  header .Titulo {
-    text-align: center;
-    width: 500px;
-  }
-  .xanP {
-    text-align: center;
-  }
-  .BAR .barImg {
-    width: 600px;
-  }
-  .Circus .CircusImg {
-    width: 700px;
   }
 }
 

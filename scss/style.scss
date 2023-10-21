@@ -12,6 +12,7 @@
      @import "./layout/show";
      @import "./layout/videos";
 
+     @import "./layout/medias/media768";
      
 
      @media(max-width: 1200px)
@@ -98,40 +99,41 @@
       width: 300px;
 }
 }
-
-
-  .Circus{
+    .Circus{
       .CircusImg{
+        height: auto;
   width: 400px;}
-      }
+}
 }     
 
+// @media(max-width: 768px)    
+//     { 
 
-@media(max-width: 768px){ 
-      header{
-          flex-direction: row;
-          align-items: center;
-          justify-content: center;
+//       header{
+//           flex-direction: row;
+//           align-items: center;
+//           justify-content: center;
       
-      .Titulo{
-          text-align: center;
-          width: 500px;
+//       .Titulo{
+//           text-align: center;
+//           width: 400px;
   
-          }
+//         }
       
-  }
-  .xanP{
-      text-align: center;
-  }
-  .BAR{
+//   }
   
-      .barImg{
-          width: 600px;
-      }
-  }
-      .Circus{
-      .CircusImg{
-          width: 700px;
-      }
-  }
-}
+  
+//   .xanP{
+//       text-align: center;
+//   }
+//   .BAR{
+//     .barImg{
+//           width: 600px;
+//       }
+//   }
+//       .Circus{
+//       .CircusImg{
+//           width: 700px;
+//       }
+//   }
+// }
