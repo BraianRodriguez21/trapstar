@@ -8,13 +8,16 @@ main{
     }
  
  .contenedorV {
+    background: linear-gradient(black, rgb(36, 22, 48));
+        display: flex;
+        border-radius: 10%; 
  
     img{
         width: 400px;
         border-radius:30%;
     }
-    @extend .contenedorS
-}
+   
+    }
 
 
     .textovideo{
@@ -29,6 +32,7 @@ main{
     .textoRelleno{
    @include textoR
     }
+    
     
 
 

@@ -42,24 +42,13 @@ main .streamTitle {
   text-align: center;
 }
 
-.contenedorST, .contenedorM {
-  background: linear-gradient(black, rgb(36, 22, 48));
-  display: flex;
-  border-radius: 10%;
-}
-
 .xanP {
-  width: 200px;
+  width: 300px;
   border-radius: 50%;
 }
 
-.contenedorSTc {
-  background: linear-gradient(black, rgb(36, 22, 48));
-  display: flex;
-}
-
 .conzoFoto {
-  width: 200px;
+  width: 350px;
   border-radius: 50%;
 }
 
@@ -86,10 +75,23 @@ main .raeProfile {
   text-align: center;
 }
 
+.contenedorM {
+  background: linear-gradient(black, rgb(36, 22, 48));
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.contenedorM .imgBar {
+  border-radius: 40%;
+  width: 400px;
+}
+
 .descripcion {
   color: white;
   font-family: "Creepster", cursive;
   text-align: center;
+  margin: 4rem;
 }
 
 .YOUTUBE {
@@ -121,29 +123,39 @@ main .showsTitle, main .videoTitle {
   color: blueviolet;
 }
 
-.contenedorS, .contenedorSTc, .contenedorST, .contenedorM, .contenedorV {
-  display: flex;
-  text-align: center;
+.contenedorS {
+  background: linear-gradient(black, rgb(36, 22, 48));
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
-.contenedorS img, .contenedorSTc img, .contenedorST img, .contenedorM img, .contenedorV img {
+.contenedorS img {
   width: 400px;
   border-radius: 30%;
 }
-.contenedorS h2, .contenedorSTc h2, .contenedorST h2, .contenedorM h2, .contenedorV h2 {
+.contenedorS h2 {
   color: white;
   font-style: normal;
   font-size: 25px;
   text-align: center;
 }
 
-.textoRelleno .barImg {
-  width: 800px;
+.BAR {
   text-align: center;
+}
+.BAR .barImg {
+  width: 800px;
+  align-content: center;
 }
 
 .barImg {
   width: 800px;
   text-align: center;
+}
+
+.imgBar {
+  width: 300px;
 }
 
 .Circus {
@@ -166,6 +178,11 @@ main .showsTitle, main .videoTitle {
   text-align: center;
 }
 
+.contenedorV {
+  background: linear-gradient(black, rgb(36, 22, 48));
+  display: flex;
+  border-radius: 10%;
+}
 .contenedorV img {
   width: 400px;
   border-radius: 30%;
@@ -199,21 +216,70 @@ h2 {
   text-align: center;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
   header {
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-  .contenedorS, .contenedorSTc, .contenedorST, .contenedorM, .contenedorV {
+  header .Titulo {
+    text-align: center;
+    width: 300px;
+  }
+  .xanP {
+    width: 300px;
+    border: 100%;
+  }
+  .raeP {
+    width: 200px;
+    height: 215px;
+  }
+}
+.barImg {
+  width: 300px;
+}
+
+.TextShowCircus .CircusTitulo .CircusImg {
+  width: 300px;
+}
+
+@media (max-width: 412px) {
+  header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  header .Titulo {
+    text-align: center;
+    width: 300px;
+  }
+  .xanP {
+    width: 300px;
+    border: 100%;
+  }
+  .raeP {
+    width: 200px;
+    height: 215px;
+  }
+  .contenedorM {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: none;
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
   }
-  .contenedorS .imgBar, .contenedorSTc .imgBar, .contenedorST .imgBar, .contenedorM .imgBar, .contenedorV .imgBar {
-    border-radius: 40%;
-    width: 50px;
+  .fotovideo {
+    text-align: center;
+    width: 300px;
+    border-radius: 20%;
+  }
+  .Editoresdevideo {
+    width: 300px;
+  }
+  .BAR .barImg {
+    width: 300px;
+  }
+  .Circus .CircusImg {
+    width: 400px;
   }
 }
 @media (max-width: 768px) {
@@ -229,44 +295,12 @@ h2 {
   .xanP {
     text-align: center;
   }
-}
-@media (max-width: 412px) {
-  header {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  .BAR .barImg {
+    width: 600px;
   }
-  header .Titulo {
-    text-align: center;
-    width: 300px;
+  .Circus .CircusImg {
+    width: 700px;
   }
-  .xanP {
-    width: 300px;
-    border: 100%;
-  }
-}
-.raeP {
-  width: 200px;
-  height: 215px;
-}
-
-.contenedorS, .contenedorV, .contenedorST, .contenedorM, .contenedorSTc {
-  display: grid;
-  grid-template-columns: 3, 1fr;
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-.contenedorS .imgBar, .contenedorV .imgBar, .contenedorST .imgBar, .contenedorM .imgBar, .contenedorSTc .imgBar {
-  border-radius: 40%;
-  width: 50px;
-}
-
-.barImg {
-  width: 300px;
-}
-
-.TextShowCircus .CircusTitulo .CircusImg {
-  width: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */

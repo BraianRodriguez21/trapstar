@@ -1,51 +1,51 @@
-@media(max-width: 412px)
-  {
+// @media(max-width: 412px)
+//   {
    
-    header{
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        .Titulo{
-            text-align: center;
-            width: 300px;
-        }
-    }
-    .xanP{
-        width: 300px;
-        border: 100%;
+//     header{
+//         flex-direction: row;
+//         align-items: center;
+//         justify-content: center;
+//         .Titulo{
+//             text-align: center;
+//             width: 300px;
+//         }
+//     }
+//     .xanP{
+//         width: 300px;
+//         border: 100%;
       
-    }
-} .raeP{
-        width: 200px;
-        height: 215px;
+//     }
+// } .raeP{
+//         width: 200px;
+//         height: 215px;
 
-    }
-.contenedorST{
-    @extend .contenedorS
-}
-.contenedorSTc{
-    @extend .contenedorS
-}
+//     }
+// .contenedorST{
+//     @extend .contenedorS
+// }
+// .contenedorSTc{
+//     @extend .contenedorS
+// }
 
-.contenedorS{
-    display: grid;
-    grid-template-columns: (3,1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    .imgBar{
-        border-radius: 40%;
-        width: 50px;
-    }
+// .contenedorS{
+//     display: grid;
+//     grid-template-columns: (3,1fr);
+//     grid-gap: 10px;
+//     grid-auto-rows: minmax(100px, auto);
+//     .imgBar{
+//         border-radius: 40%;
+//         width: 50px;
+//     }
   
-}
-.barImg{
-    width: 300px;
-}
-.TextShowCircus{
-    .CircusTitulo{
-.CircusImg{
-    width: 300px;
+// }
+// .barImg{
+//     width: 300px;
+// }
+// .TextShowCircus{
+//     .CircusTitulo{
+// .CircusImg{
+//     width: 300px;
       
-            }
-                }   
-} 
+//             }
+//                 }   
+// } 

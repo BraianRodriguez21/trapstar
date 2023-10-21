@@ -7,9 +7,11 @@ main{
 }
 
 .contenedorS{ 
-    display: flex;
-    text-align: center;
-    
+    background: linear-gradient(black, rgb(36, 22, 48));
+    display: grid;
+            grid-template-columns: (1fr 1fr);
+            grid-gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
 
     img{
         width: 400px;
@@ -21,13 +23,13 @@ main{
     } 
   
     }
-    .textoRelleno{
-        .barImg{
+    
+ .BAR{
+    text-align: center;
+    .barImg{
             width: 800px;
-            text-align: center;
- 
-    }
-           
+            align-content: center;
+     }      
 
     }
     .barImg{
@@ -35,6 +37,9 @@ main{
         width: 800px;
         text-align: center;
 
+}
+.imgBar{
+    width: 300px;
 }
    .Circus{
     text-align: center;

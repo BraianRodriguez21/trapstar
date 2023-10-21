@@ -12,6 +12,126 @@
      @import "./layout/show";
      @import "./layout/videos";
 
-     @import "./layout/medias/media1080";  
-     @import "./layout/medias/media768";
-     @import "./layout/medias/media412"; 
+     
+
+     @media(max-width: 1200px)
+  {
+   
+    header{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .Titulo{
+            text-align: center;
+            width: 300px;
+        }
+    }
+    .xanP{
+        width: 300px;
+        border: 100%;
+      
+    }
+    .raeP{
+          width: 200px;
+          height: 215px;
+          
+      }
+      
+
+            
+      }
+      .barImg{
+            width: 300px;
+      }
+      .TextShowCircus{
+            .CircusTitulo{
+                  .CircusImg{
+                        width: 300px;
+                        
+                  }
+            } 
+            
+      } 
+
+      
+@media(max-width: 412px)
+  {
+   
+    header{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      .Titulo{
+            text-align: center;
+            width: 300px;
+        }
+    }
+    .xanP{
+        width: 300px;
+        border: 100%;
+      
+    }
+    .raeP{
+      width: 200px;
+      height: 215px;
+
+  }
+
+.contenedorM{
+  display: grid;
+  grid-template-columns: none;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  
+  }
+
+.fotovideo{
+      text-align: center;
+      width: 300px;
+      border-radius: 20%;
+}
+.Editoresdevideo{
+      width: 300px;
+}
+.BAR{
+  .barImg{
+      width: 300px;
+}
+}
+
+
+  .Circus{
+      .CircusImg{
+  width: 400px;}
+      }
+}     
+
+
+@media(max-width: 768px){ 
+      header{
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+      
+      .Titulo{
+          text-align: center;
+          width: 500px;
+  
+          }
+      
+  }
+  .xanP{
+      text-align: center;
+  }
+  .BAR{
+  
+      .barImg{
+          width: 600px;
+      }
+  }
+      .Circus{
+      .CircusImg{
+          width: 700px;
+      }
+  }
+}

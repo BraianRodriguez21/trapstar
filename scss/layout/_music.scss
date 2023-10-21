@@ -13,7 +13,17 @@ main{
  }
 
 .contenedorM{
- @extend .contenedorST
+    background: linear-gradient(black, rgb(36, 22, 48));
+    display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+            .imgBar{
+                  border-radius: 40%;
+                  width:400px;
+            
+            }
+ 
 
         }
                
@@ -21,6 +31,7 @@ main{
             color: white;
             font-family: 'Creepster', cursive;
             text-align: center;
+            margin: 4rem;
         } 
     .YOUTUBE{
         text-align: center;
